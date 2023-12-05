@@ -43,6 +43,9 @@ app.get('/math/:op', (req, res) => {
     }
     res.send(resultObject);
     // {"numbers":{"x":10,"y":2},"operation":"divide","result":5}
+
+    // res.send(result ? `The result is ${result}` : `Unrecognizable operation name`);
+    // The result is 5
   
   });
 
